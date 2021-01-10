@@ -1,0 +1,40 @@
+body{
+  background-color: #f02233;
+background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.res{
+  background-color: black;
+  text-align: center;
+  display: inline-block;
+  width:400px;
+  height:250px;
+  margin-left: 550px;
+  margin-top: 200px;
+  border: 1px white solid;
+
+
+}
+
+.bmi{
+  margin-top: 90px;
+  color: #ffffff;
+
+}
+
+.conclusion{
+  color: #ffffff;
+  margin-top: 20px;
+  /* padding-left: 50px; */
+}
+ .custombtn{
+   display: inline-block;
+ }
+.button{
+  margin-top: 40px;
+  background-color: black;
+  height:5px;
+  width:400px;
+  margin-left: 550px;
+}

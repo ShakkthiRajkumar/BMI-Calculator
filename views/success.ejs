@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Result</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="css/styleforsuccess.css">
+
+</head>
+
+<body>
+  <div class="res">
+    <h1 class="bmi">Your BMI is <%= BMI %></h1>
+    <h2 class="conclusion">You are <%= weight %></h2>
+
+  </div>
+  <div class="button">
+    <form action="/success" method="post">
+  <button type="submit" class="btn btn-secondary btn-block custombtn">Try Again</button>
+</form>
+</div>
+<script src="calc.js"></script>
+</body>
+
+</html>
